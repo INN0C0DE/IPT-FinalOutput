@@ -1,0 +1,327 @@
+body {
+    font-family: 'Poppins';font-size: 22px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    background-image: url('aot.jpg');
+}
+.hd1 {
+    border: solid;
+    position: fixed;
+    margin-left: 0px;
+    padding-left: 540px;
+    padding-right: 502px;
+    background-color: #098de5;
+    margin-top: 0;
+    z-index: 999;
+}
+.hd2 {
+    border: solid;
+    position: fixed;
+    margin-left: 0px;
+    padding-left: 580px;
+    padding-right: 575px;
+    background-color: #098de5;
+    margin-top: 0;
+    z-index: 999;
+}
+.hd3 {
+    border: solid;
+    position: fixed;
+    margin-left: 0px;
+    padding-left: 435px;
+    padding-right: 436px;
+    background-color: #098de5;
+    margin-top: 0;
+    z-index: 999;
+}
+h3, h4 {
+    transition: transform .5s;
+}
+h4 {
+    background-color: #098de5;
+    border: solid;
+    border-width: 1px;
+    border-radius: 25px;
+    padding: 5px 5px 5px 5px;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+    transition: transform .3s;
+}
+.logo4 {
+    width: 130px;
+    height: 130px;
+    transition: transform .3s;
+}
+/*BUTTONS*/
+.hbt {
+    width: 100px;
+    height: 100px;
+    position:relative;
+    left: -590px;
+    transition: transform .3s;
+}
+.fbt {
+    width: 90px;
+    height: 90px;
+    position:relative;
+    left: -380px;
+    top: 160px;
+    transition: transform .3s;
+    background-color: #0D98C7;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 50%;
+}
+.ubt {
+    width: 110px;
+    height: 110px;
+    position:relative;
+    left: -40px;
+    top: 160px;
+    transition: transform .3s;
+}
+.mepic {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.hbt2 {
+    width: 100px;
+    height: 100px;
+    position:relative;
+    top: 10px;
+    left: -560px;
+    transition: transform .3s;
+}
+/*HOVER SECTION*/
+.logo:hover {transform: scale(1.15);}
+.logo4:hover {transform: scale(1.15);}
+h4:hover {transform: scale(1.01); color: #E9F8FD;}
+h1:hover {color: #E3F1FC;}
+.hbt:hover {transform: scale(1.15);}
+.hbt2:hover {transform: scale(1.15);}
+.fbt:hover {transform: scale(1.15);}
+.ubt:hover {transform: scale(1.15);}
+.fav:hover {color: #E3F1FC;}
+.user:hover {color: #E3F1FC;}
+.uname:hover {color: #E3F1FC; transition: transform .4s; transform: scale(1.15); }
+.bio:hover {color: #E3F1FC; transition: transform .4s; transform: scale(1.15);}
+.profile:hover {transition: transform .4s; transform: scale(1.15);}
+.info1:hover {color: #E3F1FC; background-color: #3D5A80; transition: transform .3s; transform: scale(1.15); }
+.info11:hover {color: #E3F1FC; background-color: #3D5A80; transition: transform .3s; transform: scale(1.15); }
+.info2:hover {color: #E3F1FC; background-color: #3D5A80; transition: transform .3s; transform: scale(1.15); }
+.info22:hover {color: #E3F1FC; background-color: #3D5A80; transition: transform .3s; transform: scale(1.15); }
+.info3:hover {color: #E3F1FC; background-color: #3D5A80; transition: transform .3s; transform: scale(1.15); }
+.info33:hover {color: #E3F1FC; background-color: #3D5A80; transition: transform .3s; transform: scale(1.15); }
+.info4:hover {color: #E3F1FC; background-color: #3D5A80; transition: transform .3s; transform: scale(1.15); }
+.info44:hover {color: #E3F1FC; background-color: #3D5A80; transition: transform .3s; transform: scale(1.15); }
+.info5:hover {color: #E3F1FC; background-color: #3D5A80; transition: transform .3s; transform: scale(1.15); }
+.info55:hover {color: #E3F1FC; background-color: #3D5A80; transition: transform .3s; transform: scale(1.15); }
+.bio2:hover {color: #E3F1FC; background-color: #3D5A80; transition: transform .3s; }
+/*DIV*/
+.fav {
+    background-color: #098de5;
+    position: absolute;
+    top: 317px;
+    /*right: 800px;*/
+    left: 45px;
+    margin-right: 900px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid black;
+    /*font-size: 12px;*/
+    border-radius: 25px;
+}
+.user {
+    background-color: #098de5;
+    position: absolute;
+    top: 317px;
+    right: 465px;
+    left: 480px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+.uname {
+    background-color: #098de5;
+    position: absolute;
+    top: 200px;
+    right: 500px;
+    left: -20px;
+    padding-left: 0px;
+    padding-right: 100px;
+    border-radius: 25px 45px 45px 25px;
+    text-align: right;
+}
+.bio {
+    background-color: #84bedf;
+    position: absolute;
+    top: 305px;
+    right: 550px;
+    left: -20px;
+    padding-left: 0px;
+    padding-right: 329px;
+    border-radius: 25px 45px 45px 25px;
+    text-align: right;
+    font-size: 25px;
+}
+.profile {
+    position: absolute;
+    background-color: #098DE5;
+    top: 195px;
+    left: 1000px;
+    border: 3px solid #098DE5;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 20px;
+}
+.info1 {
+    position: relative;
+    top: 500px;
+    left: 400px;
+    margin-right: 1050px;
+    background-color: #8EC5E3;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.info2 {
+    position: relative;
+    top: 500px;
+    left: 400px;
+    margin-right: 1050px;
+    background-color: #8EC5E3;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.info3 {
+    position: relative;
+    top: 500px;
+    left: 400px;
+    margin-right: 1050px;
+    background-color: #8EC5E3;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.info4 {
+    position: relative;
+    top: 500px;
+    left: 400px;
+    margin-right: 1050px;
+    background-color: #8EC5E3;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.info5 {
+    position: relative;
+    top: 500px;
+    left: 400px;
+    margin-right: 1050px;
+    background-color: #8EC5E3;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.info11 {
+    position: relative;
+    top: 125px;
+    left: 650px;
+    margin-right: 980px;
+    background-color: #8EC5E3;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.info22 {
+    position: relative;
+    top: 125px;
+    left: 650px;
+    margin-right: 980px;
+    background-color: #8EC5E3;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.info33 {
+    position: relative;
+    top: 125px;
+    left: 650px;
+    margin-right: 980px;
+    background-color: #8EC5E3;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.info44 {
+    position: relative;
+    top: 125px;
+    left: 650px;
+    margin-right: 980px;
+    background-color: #8EC5E3;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.info55 {
+    position: relative;
+    top: 125px;
+    left: 650px;
+    margin-right: 980px;
+    background-color: #8EC5E3;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.bio2 {
+    position: relative;
+    top: 160px;
+    left: 150px;
+    margin-right: 140px;
+    background-color: #8EC5E3;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+

@@ -1,0 +1,195 @@
+*{
+    scroll-behavior: smooth;
+}
+body {
+    padding: 0px;
+	margin:0px;
+    font-family: poppins;
+    /* scroll-behavior: smooth; */
+    
+}
+.parallax {
+    /* The image used */
+    background-image: url("bg3.png");
+    /* Set a specific height */
+    min-height: 670px; 
+    /* Parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-top: 100px; */
+    /* overflow-y: scroll;
+    scroll-behavior: smooth; */
+}
+.parallax1 {
+    height:670px;
+    /* background-color:red; */
+    background-image: url("aot.jpg");
+    font-size:36px
+}
+.title1 {
+    position: absolute;
+    font-size: 130px;
+    margin-left: 80px;
+    color: black;
+    /* -webkit-text-stroke: 1px white; */
+    /* text-shadow: 0 0 10px white; */
+    /* 1 pixel black shadow to left, top, right and bottom */
+}
+.title2 {
+    position: absolute;
+    font-size: 130px;
+    margin-left: 80px;
+    margin-top: 230px;
+}
+.title3 {
+    position: absolute;
+    font-size: 40px;
+    margin-left: 85px;
+    margin-top: 370px;
+    color: black;
+}
+.seemore {
+    position: absolute;
+    top: 500px;
+    left: 85px;
+    /* margin-right: 1050px; */
+    background-color: #4598EC;
+    color: black;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.seemore:hover {color: #E3F1FC; background-color: #3D5A80; transition: transform .3s; transform: scale(1.15); }
+a:visited 
+{
+    text-decoration: none; 
+}
+.title3:hover, .title1:hover,.title2:hover, .title4:hover {color: #E3F1FC;text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;}
+/* activity menu */
+.title4 {
+    position: absolute;
+    font-size: 80px;
+    margin-left: 385px;
+    margin-top: 10px;
+}
+.pic1 {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 250px;
+    width: 200px;
+    height: 200px;
+}
+.pic2 {
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 250px;
+    width: 200px;
+    height: 200px;
+}
+.pic3 {
+    position: absolute;
+    margin-left: 750px;
+    margin-top: 250px;
+    width: 200px;
+    height: 200px;
+}
+.pic4 {
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: 250px;
+    width: 210px;
+    height: 210px;
+}
+.pic1:hover, .pic2:hover, .pic3:hover,.pic4:hover {transition: transform .3s; transform: scale(1.15);}
+.title5 {
+    position: absolute;
+    font-size: 40px;
+    margin-left: 105px;
+    margin-top: 180px;
+}
+.title6 {
+    position: absolute;
+    font-size: 40px;
+    margin-left: 430px;
+    margin-top: 180px;
+}
+.title7 {
+    position: absolute;
+    font-size: 40px;
+    margin-left: 745px;
+    margin-top: 180px;
+}
+.title8 {
+    position: absolute;
+    font-size: 40px;
+    margin-left: 1050px;
+    margin-top: 180px;
+}
+/* git links */
+.git1 {
+    position: absolute;
+    top: 1130px;
+    left: 105px;
+    /* margin-right: 1050px; */
+    background-color: #8EC5E3;
+    color: black;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.git2 {
+    position: absolute;
+    top: 1130px;
+    left: 430px;
+    /* margin-right: 1050px; */
+    background-color: #8EC5E3;
+    color: black;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.git3 {
+    position: absolute;
+    top: 1130px;
+    left: 750px;
+    /* margin-right: 1050px; */
+    background-color: #8EC5E3;
+    color: black;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.git4 {
+    position: absolute;
+    top: 1130px;
+    left: 1060px;
+    /* margin-right: 1050px; */
+    background-color: #8EC5E3;
+    color: black;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.git1:hover,.git2:hover,.git3:hover,.git4:hover {color: #E3F1FC; background-color: #3D5A80; transition: transform .3s; transform: scale(1.15); }
